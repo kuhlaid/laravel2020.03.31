@@ -1,3 +1,9 @@
+## Notes
+
+March 31, 2020
+- added a few lines of code to the basic Laravel framework to test API data requests to http://127.0.0.1:8000/api_ex
+
+<hr/>
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">

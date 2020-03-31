@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/api_ex', array('middleware' => 'cors', 'uses' => function () {
+    $rArray = [];
+    $rArray['author'] = 'svelte2 API testing against Laravel backend';
+    $rArray['version'] = 'v0.1.5';
+    return $rArray;
+}));
 Route::get('/', function () {
     return view('welcome');
 });
